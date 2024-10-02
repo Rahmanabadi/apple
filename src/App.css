@@ -1,0 +1,104 @@
+* {
+  user-select: none;
+}
+
+div {
+  user-select: none; 
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #F5F5F7 !important;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.image-section {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-section {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.image-section div {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.apple-button {
+  background-color: #007aff; 
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px; 
+  font-size: 16px;
+  font-weight: 500;
+  width: 180px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.apple-button:hover {
+  background-color: #005bb5; 
+}
+
+.apple-button:active {
+  transform: scale(0.97); 
+}
+
+.container{
+  margin-top: 30px;
+}
+.column-1{
+  margin-top: 12px !important;
+}
+
+.interaction-section{
+  margin-top: 10px;
+  margin-left: 30px;
+}
